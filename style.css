@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+width: 20%;
+justify-content: center;
+align-items: center;
+}
+
+.logo img{
+    width: 91%;
+    border: 4px solid white;
+    border-radius: 49%;
+    height: 62%;
+    margin: 10px 30px 10px 0px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    
+}
+
+.nav-list{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.nav-list li{
+    text-decoration: none;
+    list-style: none;
+    margin: 26px 30px;
+    justify-content: center;
+    align-self: center;
+    cursor: pointer;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 21px;
+}
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+.background{
+    /*background: rgba(0, 0, 0, 0.7) url(jakub-sisulak-L1AEdl-iLL4-unsplash.jpg);*/
+    background-color: #264653;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+    
+
+.rightnav{
+    float: right;
+    padding: 10px 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+#search{
+    padding: 5px;
+    font-size: 20px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+
+.btn{
+    padding: 7px 20px;
+    margin: 7px 5px;
+    border: 2px solid red;
+    border-radius: 10px;
+    font-size: 17px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    
+}
+
+.btn:hover{
+    color: red;
+}
